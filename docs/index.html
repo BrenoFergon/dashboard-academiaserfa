@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Dashboard — SDAY 6 JUNIO</title>
+<title>Dashboard — Academia Serfa · SDAY</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
 <style>
@@ -36,6 +36,14 @@ body.light{--bg:#f2f3f8;--surface:#fff;--surface2:#f7f8fc;--border:#e0e2ef;--tex
 .tab:hover{color:var(--text)}
 .tab.active{color:var(--accent);border-bottom-color:var(--accent)}
 
+.launchbar{display:flex;align-items:center;gap:8px;padding:10px 24px;background:var(--surface2);border-bottom:1px solid var(--border);flex-wrap:wrap}
+.launch-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.launch-btn{background:transparent;border:1px solid var(--border);border-radius:20px;padding:5px 14px;font-size:11px;font-weight:600;color:var(--muted);cursor:pointer;font-family:var(--font);transition:all .15s}
+.launch-btn:hover{color:var(--text)}
+.launch-btn.active{background:var(--accent);border-color:var(--accent);color:#0e0e12}
+.launch-live{display:inline-block;width:6px;height:6px;border-radius:50%;background:#fc8181;margin-right:6px;vertical-align:middle}
+.launch-btn.active .launch-live{background:#0e0e12}
+.sc-note{font-size:12px;color:var(--muted);margin:-4px 0 16px}
 .tab-content{display:none}
 .tab-content.active{display:block}
 .main{padding:20px 24px;max-width:1400px;margin:0 auto}
@@ -202,6 +210,8 @@ body.light .srch{background:#f0f2f7}
   </div>
 </div>
 
+<div class="launchbar" id="launchbar"><span class="launch-lbl" id="lbl-launch">Lançamento</span></div>
+
 <div class="tabs">
   <div class="tab active" onclick="showTab('overview')">&#128202; Overview</div>
   <div class="tab" onclick="showTab('scoring')">&#127919; Lead Scoring</div>
@@ -288,10 +298,11 @@ body.light .srch{background:#f0f2f7}
 <div id="tab-scoring" class="tab-content" style="display:none">
 <div class="main">
   <div class="kpi-row">
-    <div class="kpi ideal"><div class="kpi-label">&#10022; Ideal</div><div class="kpi-value" id="sc-ki">&mdash;</div><div class="kpi-sub">Ingresos &ge; &euro;2.000<br>Arq./Ing. activo</div></div>
-    <div class="kpi bom">  <div class="kpi-label">&#9672; Bom</div>  <div class="kpi-value" id="sc-kb">&mdash;</div><div class="kpi-sub">Criterio parcial ideal<br>Sin descarte</div></div>
-    <div class="kpi desc"> <div class="kpi-label">&#10005; Descarte</div><div class="kpi-value" id="sc-kd">&mdash;</div><div class="kpi-sub">Ingresos &lt; &euro;1.500<br>Estudiante/Inactivo</div></div>
+    <div class="kpi ideal"><div class="kpi-label">&#10022; Ideal</div><div class="kpi-value" id="sc-ki">&mdash;</div><div class="kpi-sub" id="sc-si">Ingresos &ge; &euro;2.000<br>Arq./Ing. activo</div></div>
+    <div class="kpi bom">  <div class="kpi-label">&#9672; Bom</div>  <div class="kpi-value" id="sc-kb">&mdash;</div><div class="kpi-sub" id="sc-sb">Criterio parcial ideal<br>Sin descarte</div></div>
+    <div class="kpi desc"> <div class="kpi-label">&#10005; Descarte</div><div class="kpi-value" id="sc-kd">&mdash;</div><div class="kpi-sub" id="sc-sd">Ingresos &lt; &euro;1.500<br>Estudiante/Inactivo</div></div>
   </div>
+  <div class="sc-note" id="sc-note"></div>
   <div class="utm-summary">
     <div class="utm-card cold">
       <div class="utm-card-title">COLD &mdash; scoring por criativo</div>
@@ -338,6 +349,17 @@ body.light .srch{background:#f0f2f7}
 
 <script>
 var D=null, lang='pt', isDark=true, chartInst=null;
+// Lançamentos: o primeiro é o padrão. Para um lançamento novo, adicione uma linha no topo.
+var LAUNCHES=[
+  {id:'sday03oct', label:'SDAY 03 OCT', file:'data-sday03oct.json', live:true},
+  {id:'sday6jun',  label:'SDAY 6 JUNIO', file:'data.json'}
+];
+var curLaunch=null, curTab='overview';
+var SC_DEFAULT={
+  Ideal:'Ingresos &ge; &euro;2.000<br>Arq./Ing. activo',
+  Bom:'Criterio parcial ideal<br>Sin descarte',
+  Descarte:'Ingresos &lt; &euro;1.500<br>Estudiante/Inactivo'
+};
 var scCf='all', scCs='ideal', scSa=false, scCp=1, scPS=12;
 
 var LABELS={
@@ -351,6 +373,7 @@ function set(id,v){var e=document.getElementById(id);if(e)e.textContent=v;}
 function setH(id,v){var e=document.getElementById(id);if(e)e.innerHTML=v;}
 
 function showTab(t){
+  curTab=t;
   document.querySelectorAll('.tab-content').forEach(function(el){el.style.display='none';});
   document.querySelectorAll('.tab').forEach(function(el){el.classList.remove('active');});
   document.getElementById('tab-'+t).style.display='block';
@@ -388,9 +411,9 @@ function renderOverview(){
   set('badge-cr',f.connect_rate.toFixed(2)+'% '+L.cr);
   set('badge-txconv',f.taxa_conversao.toFixed(2)+'% '+L.txconv);
   var mC=f.cliques/f.impressoes, mP=f.page_views/f.impressoes, mL=f.leads/f.impressoes;
-  document.getElementById('fbar-cli').style.width=Math.max(mC*100,4)+'%';
-  document.getElementById('fbar-pv').style.width=Math.max(mP*100,4)+'%';
-  document.getElementById('fbar-leads').style.width=Math.max(mL*100*3,8)+'%';
+  document.getElementById('fbar-cli').style.width=Math.max(mC*100,32)+'%';
+  document.getElementById('fbar-pv').style.width=Math.max(mP*100,26)+'%';
+  document.getElementById('fbar-leads').style.width=Math.max(mL*100*3,20)+'%';
 
   var bestCpl=Math.min.apply(null,D.segmentacao.faixa_etaria.filter(function(x){return x.leads>0;}).map(function(x){return x.cpl;}));
   document.getElementById('tbody-genero').innerHTML=D.segmentacao.genero.map(function(r){
@@ -459,6 +482,13 @@ function scRender(){
   if(!D||!D.lead_scoring) return;
   var sc=D.lead_scoring;
   set('sc-ki',sc.totais.Ideal||0); set('sc-kb',sc.totais.Bom||0); set('sc-kd',sc.totais.Descarte||0);
+  var cr=sc.criterios||{};
+  ['Ideal','Bom','Descarte'].forEach(function(k,i){
+    var t=(cr[k]&&(cr[k][lang]||cr[k].pt))||SC_DEFAULT[k];
+    setH(['sc-si','sc-sb','sc-sd'][i],t);
+  });
+  var resp=(sc.totais.Ideal||0)+(sc.totais.Bom||0)+(sc.totais.Descarte||0), sem=sc.totais['Sem dados']||0;
+  set('sc-note',lang==='es'?(resp+' leads con encuesta respondida · '+sem+' sin encuesta'):(resp+' leads com pesquisa respondida · '+sem+' sem pesquisa'));
   var q=document.getElementById('sc-srch').value.toLowerCase();
   var fl=sc.grupos.filter(function(r){
     if(scCf==='Ideal'&&r.ideal===0) return false;
@@ -487,7 +517,7 @@ function scRender(){
   }).join('')||'<tr><td colspan="9" style="text-align:center;padding:24px;color:var(--muted)">Nenhum resultado</td></tr>';
   document.getElementById('sc-pi').textContent=(fl.length?(start+1)+' – '+end+' de '+fl.length:0)+' combinações';
   var tp=Math.ceil(fl.length/scPS),ph='';
-  for(var i=1;i<=tp;i++) ph+='<button class="pbtn'+(i===scCp?' on':'')+' onclick="scGp('+i+')">'+i+'</button>';
+  for(var i=1;i<=tp;i++) ph+='<button class="pbtn'+(i===scCp?' on':'')+'" onclick="scGp('+i+')">'+i+'</button>';
   document.getElementById('sc-pb').innerHTML=ph;
   ['COLD','HOT'].forEach(function(t){
     var grupo={};
@@ -524,7 +554,9 @@ function setLang(l){
   lang=l;
   document.getElementById('btnPT').classList.toggle('active',l==='pt');
   document.getElementById('btnES').classList.toggle('active',l==='es');
+  set('lbl-launch',l==='es'?'Lanzamiento':'Lançamento');
   renderOverview();
+  if(curTab==='scoring') scRender();
 }
 
 function toggleTheme(){
@@ -533,18 +565,45 @@ function toggleTheme(){
   document.getElementById('themeBtn').textContent=isDark?'☀ Claro':'🌙 Escuro';
 }
 
-fetch('./data.json?t='+Date.now())
-  .then(function(r){return r.json();})
-  .then(function(data){
-    D=data;
-    document.getElementById('loading').style.display='none';
-    showTab('overview');
-    renderOverview();
-  })
-  .catch(function(e){
-    document.getElementById('loading').innerHTML='<span style="color:#fc8181;font-size:13px">Erro ao carregar data.json: '+e.message+'</span>';
-    console.error(e);
+function renderLaunchBar(){
+  var bar=document.getElementById('launchbar');
+  bar.querySelectorAll('.launch-btn').forEach(function(b){b.remove();});
+  LAUNCHES.forEach(function(L){
+    var b=document.createElement('button');
+    b.className='launch-btn'+(curLaunch===L.id?' active':'');
+    b.innerHTML=(L.live?'<span class="launch-live"></span>':'')+L.label;
+    b.onclick=function(){loadLaunch(L.id);};
+    bar.appendChild(b);
   });
+}
+
+function loadLaunch(id){
+  var L=LAUNCHES.filter(function(x){return x.id===id;})[0]||LAUNCHES[0];
+  curLaunch=L.id;
+  try{history.replaceState(null,'','#'+L.id);}catch(e){}
+  renderLaunchBar();
+  document.querySelectorAll('.tab-content').forEach(function(el){el.style.display='none';});
+  var ld=document.getElementById('loading');
+  ld.style.display='flex';
+  ld.innerHTML='<div class="loading-dots"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div><span style="font-size:13px;color:var(--muted)">Carregando dados...</span>';
+  scCf='all'; scCp=1; var sr=document.getElementById('sc-srch'); if(sr) sr.value='';
+  ['sc-fi','sc-fb','sc-fd','sc-fc','sc-fh'].forEach(function(i){var e=document.getElementById(i);if(e)e.className='fbtn';});
+  var fa=document.getElementById('sc-fa'); if(fa) fa.className='fbtn fa';
+  fetch('./'+L.file+'?t='+Date.now())
+    .then(function(r){if(!r.ok) throw new Error('HTTP '+r.status); return r.json();})
+    .then(function(data){
+      D=data;
+      ld.style.display='none';
+      showTab(curTab);
+      renderOverview();
+    })
+    .catch(function(e){
+      ld.innerHTML='<span style="color:#fc8181;font-size:13px">Erro ao carregar '+L.file+': '+e.message+'</span>';
+      console.error(e);
+    });
+}
+
+loadLaunch((location.hash||'').replace('#','')||LAUNCHES[0].id);
 </script>
 </body>
 </html>
