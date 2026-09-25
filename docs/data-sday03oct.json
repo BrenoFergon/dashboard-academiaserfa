@@ -1,1 +1,572 @@
-{"meta":{"cliente":"Academia Serfa","evento":"Structural Day 03/10 · España","periodo":"22/09 – 24/09","datas_evento":"22/09 – 03/10","atualizado_em":"24/09/2026 22:02","dias_ativos":3},"kpis":{"investimento_total":695.18,"cpl_total":12.87,"leads_total":54},"audiencias":{"hot":{"leads":36,"spend":400.36,"cpl":11.12},"cold":{"leads":18,"spend":294.82,"cpl":16.38}},"funil":{"impressoes":75433,"alcance":39616,"cliques":739,"page_views":578,"leads":54,"ctr":0.98,"connect_rate":78.21,"taxa_conversao":9.34},"leads_por_dia":[{"data":"22/09","leads":0},{"data":"23/09","leads":34},{"data":"24/09","leads":20}],"cpl_por_dia":[{"data":"22/09","leads":0,"cpl":null},{"data":"23/09","leads":34,"cpl":11.49},{"data":"24/09","leads":20,"cpl":14.83}],"canais":[{"canal":"FB","leads":26,"pct":48.1},{"canal":"IG","leads":26,"pct":48.1},{"canal":"AN","leads":2,"pct":3.7}],"criativos":[{"nome":"13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA","spend":262.91,"impressoes":30333,"cliques":277,"leads":26,"cpl":10.11},{"nome":"04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.","spend":205.57,"impressoes":22947,"cliques":212,"leads":14,"cpl":14.68},{"nome":"03.VD.FEED.VIVIENDA-UNIFAMILIAR-V1","spend":146.03,"impressoes":14914,"cliques":161,"leads":12,"cpl":12.17},{"nome":"03.VD.FEED.ARQ.EINSTEIN","spend":25.81,"impressoes":2259,"cliques":39,"leads":1,"cpl":25.81},{"nome":"02.VD.FEED.ARQ.CALCULADORA","spend":19.18,"impressoes":1573,"cliques":30,"leads":1,"cpl":19.18},{"nome":"ARQUITECTO-DINERO","spend":11.5,"impressoes":1001,"cliques":10,"leads":0,"cpl":null},{"nome":"09.VD.FEED.ARQ.NO-SUBCONTRATES","spend":11.2,"impressoes":978,"cliques":10,"leads":0,"cpl":null},{"nome":"01.VD.FEED.ARQ.PROYECTOS-RENTABLES","spend":9.02,"impressoes":902,"cliques":5,"leads":0,"cpl":null},{"nome":"14.IMG.ARQ.FIRMAR","spend":5.15,"impressoes":714,"cliques":1,"leads":0,"cpl":null}],"segmentacao":{"genero":[{"grupo":"male","spend":449.97,"ctr":0.91,"cpm":8.31,"cpc":0.92,"leads":35,"cpl":12.86},{"grupo":"female","spend":225.56,"ctr":1.17,"cpm":11.62,"cpc":0.99,"leads":18,"cpl":12.53},{"grupo":"unknown","spend":20.84,"ctr":1.18,"cpm":10.26,"cpc":0.87,"leads":2,"cpl":10.42}],"faixa_etaria":[{"grupo":"45-54","spend":277.86,"ctr":1.28,"cpm":11.25,"cpc":0.88,"leads":22,"cpl":12.63},{"grupo":"35-44","spend":232.28,"ctr":0.78,"cpm":7.41,"cpc":0.95,"leads":18,"cpl":12.9},{"grupo":"55-64","spend":117.58,"ctr":1.51,"cpm":15.07,"cpc":1.0,"leads":9,"cpl":13.06},{"grupo":"25-34","spend":68.65,"ctr":0.55,"cpm":5.83,"cpc":1.06,"leads":5,"cpl":13.73},{"grupo":"Unknown","spend":0.0,"ctr":0.0,"cpm":0.0,"cpc":0.0,"leads":0,"cpl":0.0}]},"lead_scoring":{"totais":{"Ideal":0,"Bom":1,"Descarte":2,"Sem dados":47},"criterios":{"Ideal":{"pt":"Faturamento &ge; &euro;2.000<br>e 7+ pts","es":"Ingresos &ge; &euro;2.000<br>y 7+ pts"},"Bom":{"pt":"Faturamento &ge; &euro;1.500<br>e 4+ pts","es":"Ingresos &ge; &euro;1.500<br>y 4+ pts"},"Descarte":{"pt":"Faturamento &lt; &euro;1.500<br>ou menos de 4 pts","es":"Ingresos &lt; &euro;1.500<br>o menos de 4 pts"}},"explicacao":{"pt":{"titulo":"Como classificamos os leads","intro":"Cruzamos cada cadastro com a pesquisa pré-aula pelo e-mail e somamos pontos em 4 perguntas (máximo 10). <strong>O faturamento é o critério principal</strong>: o lead precisa cumprir <strong>as duas condições</strong> (renda mínima e pontos) para entrar em cada nível.","criterios":[{"nome":"Nível de renda","max":"até 6 pts · principal","regras":[["Menos de 1.000 €","0–1"],["1.000 – 1.495 €","2"],["1.500 – 1.999 €","3"],["2.000 – 3.000 €","5"],["Mais de 3.000 €","6"]]},{"nome":"Situação profissional","max":"até 2 pts","regras":[["Conta própria / estúdio próprio","2"],["Assalariado ou quer empreender","1"],["Desempregado / estudante","0"]]},{"nome":"Experiência","max":"até 1 pt","regras":[["3 anos ou mais","1"],["Menos de 3 anos","0"]]},{"nome":"Cálculo de estruturas","max":"até 1 pt","regras":[["Calcula com dúvidas ou não se sente capacitado","1"],["Calcula com segurança ou nunca calculou","0"]]}],"niveis":[["Ideal","Ideal","Renda de 2.000 € ou mais e 7+ pontos"],["Bom","Bom","Renda de 1.500 € ou mais e 4+ pontos"],["Descarte","Descarte","Renda abaixo de 1.500 € ou menos de 4 pontos"],["Sem","Sem pesquisa","Cadastrou mas ainda não respondeu a pesquisa"]]},"es":{"titulo":"Cómo clasificamos los leads","intro":"Cruzamos cada registro con la encuesta preclase por email y sumamos puntos en 4 preguntas (máximo 10). <strong>Los ingresos son el criterio principal</strong>: el lead tiene que cumplir <strong>las dos condiciones</strong> (ingresos mínimos y puntos) para entrar en cada nivel.","criterios":[{"nome":"Nivel de ingresos","max":"hasta 6 pts · principal","regras":[["Menos de 1.000 €","0–1"],["1.000 – 1.495 €","2"],["1.500 – 1.999 €","3"],["2.000 – 3.000 €","5"],["Más de 3.000 €","6"]]},{"nome":"Situación laboral","max":"hasta 2 pts","regras":[["Cuenta propia / estudio propio","2"],["Cuenta ajena o quiere emprender","1"],["Desempleo / estudiante","0"]]},{"nome":"Experiencia","max":"hasta 1 pt","regras":[["3 años o más","1"],["Menos de 3 años","0"]]},{"nome":"Cálculo de estructuras","max":"hasta 1 pt","regras":[["Calcula con dudas o no se siente capacitado","1"],["Calcula con seguridad o nunca ha calculado","0"]]}],"niveis":[["Ideal","Ideal","Ingresos de 2.000 € o más y 7+ puntos"],["Bom","Bueno","Ingresos de 1.500 € o más y 4+ puntos"],["Descarte","Descarte","Ingresos por debajo de 1.500 € o menos de 4 puntos"],["Sem","Sin encuesta","Se registró pero aún no respondió la encuesta"]]}},"grupos":[{"tipo":"COLD","campanha":"FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22","conjunto":"00-COLD-ARQ","criativo":"04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.","canal":"fb","ideal":0,"bom":0,"descarte":1,"total":1},{"tipo":"HOT","campanha":"FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22","conjunto":"03-HOT-ENG-180D-ARQ","criativo":"13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA","canal":"fb","ideal":0,"bom":0,"descarte":1,"total":1},{"tipo":"HOT","campanha":"FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22","conjunto":"03-HOT-ENG-180D-ARQ","criativo":"13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA","canal":"ig","ideal":0,"bom":1,"descarte":0,"total":1}]},"leitura":{"pt":"Primeira carga do SDAY 03 OCT com o lead scoring novo (faturamento como critério principal). A leitura diária entra a partir da próxima execução da rotina.","es":"Primera carga del SDAY 03 OCT con el nuevo lead scoring (ingresos como criterio principal). La lectura diaria entra a partir de la próxima ejecución de la rutina."}}
+{
+  "meta": {
+    "cliente": "Academia Serfa",
+    "evento": "Structural Day 03/10 · España",
+    "periodo": "22/09 – 25/09",
+    "datas_evento": "22/09 – 03/10",
+    "atualizado_em": "25/09/2026 15:16",
+    "dias_ativos": 4
+  },
+  "kpis": {
+    "investimento_total": 1046.6,
+    "cpl_total": 13.95,
+    "leads_total": 75
+  },
+  "audiencias": {
+    "hot": {
+      "leads": 50,
+      "spend": 634.15,
+      "cpl": 12.68
+    },
+    "cold": {
+      "leads": 25,
+      "spend": 412.45,
+      "cpl": 16.5
+    }
+  },
+  "funil": {
+    "impressoes": 104797,
+    "alcance": 50386,
+    "cliques": 1058,
+    "page_views": 822,
+    "leads": 75,
+    "ctr": 1.01,
+    "connect_rate": 77.69,
+    "taxa_conversao": 9.12
+  },
+  "leads_por_dia": [
+    {
+      "data": "22/09",
+      "leads": 0
+    },
+    {
+      "data": "23/09",
+      "leads": 34
+    },
+    {
+      "data": "24/09",
+      "leads": 21
+    },
+    {
+      "data": "25/09",
+      "leads": 20
+    }
+  ],
+  "cpl_por_dia": [
+    {
+      "data": "22/09",
+      "leads": 0,
+      "cpl": null
+    },
+    {
+      "data": "23/09",
+      "leads": 34,
+      "cpl": 11.49
+    },
+    {
+      "data": "24/09",
+      "leads": 21,
+      "cpl": 14.7
+    },
+    {
+      "data": "25/09",
+      "leads": 20,
+      "cpl": 16.96
+    }
+  ],
+  "canais": [
+    {
+      "canal": "IG",
+      "leads": 37,
+      "pct": 49.3
+    },
+    {
+      "canal": "FB",
+      "leads": 34,
+      "pct": 45.3
+    },
+    {
+      "canal": "AN",
+      "leads": 4,
+      "pct": 5.3
+    }
+  ],
+  "criativos": [
+    {
+      "nome": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+      "spend": 327.62,
+      "impressoes": 36221,
+      "cliques": 312,
+      "leads": 30,
+      "cpl": 10.92
+    },
+    {
+      "nome": "04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.",
+      "spend": 316.54,
+      "impressoes": 32118,
+      "cliques": 320,
+      "leads": 19,
+      "cpl": 16.66
+    },
+    {
+      "nome": "03.VD.FEED.VIVIENDA-UNIFAMILIAR-V1",
+      "spend": 240.27,
+      "impressoes": 23063,
+      "cliques": 263,
+      "leads": 16,
+      "cpl": 15.02
+    },
+    {
+      "nome": "02.VD.FEED.ARQ.CALCULADORA",
+      "spend": 60.52,
+      "impressoes": 4085,
+      "cliques": 59,
+      "leads": 6,
+      "cpl": 10.09
+    },
+    {
+      "nome": "03.VD.FEED.ARQ.EINSTEIN",
+      "spend": 35.27,
+      "impressoes": 3074,
+      "cliques": 48,
+      "leads": 3,
+      "cpl": 11.76
+    },
+    {
+      "nome": "ARQUITECTO-DINERO",
+      "spend": 18.96,
+      "impressoes": 1554,
+      "cliques": 19,
+      "leads": 0,
+      "cpl": null
+    },
+    {
+      "nome": "09.VD.FEED.ARQ.NO-SUBCONTRATES",
+      "spend": 15.4,
+      "impressoes": 1295,
+      "cliques": 16,
+      "leads": 0,
+      "cpl": null
+    },
+    {
+      "nome": "A1-CRITERIO-ARQ-Lp1",
+      "spend": 15.11,
+      "impressoes": 1460,
+      "cliques": 13,
+      "leads": 1,
+      "cpl": 15.11
+    },
+    {
+      "nome": "01.VD.FEED.ARQ.PROYECTOS-RENTABLES",
+      "spend": 9.93,
+      "impressoes": 985,
+      "cliques": 6,
+      "leads": 0,
+      "cpl": null
+    },
+    {
+      "nome": "14.IMG.ARQ.FIRMAR",
+      "spend": 7.08,
+      "impressoes": 944,
+      "cliques": 2,
+      "leads": 0,
+      "cpl": null
+    }
+  ],
+  "segmentacao": {
+    "genero": [
+      {
+        "grupo": "male",
+        "spend": 672.05,
+        "ctr": 0.92,
+        "cpm": 8.96,
+        "cpc": 0.97,
+        "leads": 48,
+        "cpl": 14.0
+      },
+      {
+        "grupo": "female",
+        "spend": 350.42,
+        "ctr": 1.22,
+        "cpm": 12.79,
+        "cpc": 1.05,
+        "leads": 25,
+        "cpl": 14.02
+      },
+      {
+        "grupo": "unknown",
+        "spend": 24.77,
+        "ctr": 1.29,
+        "cpm": 10.02,
+        "cpc": 0.77,
+        "leads": 2,
+        "cpl": 12.39
+      }
+    ],
+    "faixa_etaria": [
+      {
+        "grupo": "45-54",
+        "spend": 420.43,
+        "ctr": 1.29,
+        "cpm": 12.18,
+        "cpc": 0.95,
+        "leads": 30,
+        "cpl": 14.01
+      },
+      {
+        "grupo": "35-44",
+        "spend": 349.18,
+        "ctr": 0.8,
+        "cpm": 8.04,
+        "cpc": 1.0,
+        "leads": 25,
+        "cpl": 13.97
+      },
+      {
+        "grupo": "55-64",
+        "spend": 176.29,
+        "ctr": 1.61,
+        "cpm": 16.42,
+        "cpc": 1.02,
+        "leads": 13,
+        "cpl": 13.56
+      },
+      {
+        "grupo": "25-34",
+        "spend": 101.29,
+        "ctr": 0.58,
+        "cpm": 6.26,
+        "cpc": 1.09,
+        "leads": 7,
+        "cpl": 14.47
+      },
+      {
+        "grupo": "Unknown",
+        "spend": 0.05,
+        "ctr": 0.0,
+        "cpm": 16.67,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0
+      }
+    ]
+  },
+  "lead_scoring": {
+    "totais": {
+      "Ideal": 4,
+      "Bom": 2,
+      "Descarte": 3,
+      "Sem dados": 60
+    },
+    "criterios": {
+      "Ideal": {
+        "pt": "Faturamento &ge; &euro;2.000<br>e 7+ pts",
+        "es": "Ingresos &ge; &euro;2.000<br>y 7+ pts"
+      },
+      "Bom": {
+        "pt": "Faturamento &ge; &euro;1.500<br>e 4+ pts",
+        "es": "Ingresos &ge; &euro;1.500<br>y 4+ pts"
+      },
+      "Descarte": {
+        "pt": "Faturamento &lt; &euro;1.500<br>ou menos de 4 pts",
+        "es": "Ingresos &lt; &euro;1.500<br>o menos de 4 pts"
+      }
+    },
+    "explicacao": {
+      "pt": {
+        "titulo": "Como classificamos os leads",
+        "intro": "Cruzamos cada cadastro com a pesquisa pré-aula pelo e-mail e somamos pontos em 4 perguntas (máximo 10). <strong>O faturamento é o critério principal</strong>: o lead precisa cumprir <strong>as duas condições</strong> (renda mínima e pontos) para entrar em cada nível.",
+        "criterios": [
+          {
+            "nome": "Nível de renda",
+            "max": "até 6 pts · principal",
+            "regras": [
+              [
+                "Menos de 1.000 €",
+                "0–1"
+              ],
+              [
+                "1.000 – 1.495 €",
+                "2"
+              ],
+              [
+                "1.500 – 1.999 €",
+                "3"
+              ],
+              [
+                "2.000 – 3.000 €",
+                "5"
+              ],
+              [
+                "Mais de 3.000 €",
+                "6"
+              ]
+            ]
+          },
+          {
+            "nome": "Situação profissional",
+            "max": "até 2 pts",
+            "regras": [
+              [
+                "Conta própria / estúdio próprio",
+                "2"
+              ],
+              [
+                "Assalariado ou quer empreender",
+                "1"
+              ],
+              [
+                "Desempregado / estudante",
+                "0"
+              ]
+            ]
+          },
+          {
+            "nome": "Experiência",
+            "max": "até 1 pt",
+            "regras": [
+              [
+                "3 anos ou mais",
+                "1"
+              ],
+              [
+                "Menos de 3 anos",
+                "0"
+              ]
+            ]
+          },
+          {
+            "nome": "Cálculo de estruturas",
+            "max": "até 1 pt",
+            "regras": [
+              [
+                "Calcula com dúvidas ou não se sente capacitado",
+                "1"
+              ],
+              [
+                "Calcula com segurança ou nunca calculou",
+                "0"
+              ]
+            ]
+          }
+        ],
+        "niveis": [
+          [
+            "Ideal",
+            "Ideal",
+            "Renda de 2.000 € ou mais e 7+ pontos"
+          ],
+          [
+            "Bom",
+            "Bom",
+            "Renda de 1.500 € ou mais e 4+ pontos"
+          ],
+          [
+            "Descarte",
+            "Descarte",
+            "Renda abaixo de 1.500 € ou menos de 4 pontos"
+          ],
+          [
+            "Sem",
+            "Sem pesquisa",
+            "Cadastrou mas ainda não respondeu a pesquisa"
+          ]
+        ]
+      },
+      "es": {
+        "titulo": "Cómo clasificamos los leads",
+        "intro": "Cruzamos cada registro con la encuesta preclase por email y sumamos puntos en 4 preguntas (máximo 10). <strong>Los ingresos son el criterio principal</strong>: el lead tiene que cumplir <strong>las dos condiciones</strong> (ingresos mínimos y puntos) para entrar en cada nivel.",
+        "criterios": [
+          {
+            "nome": "Nivel de ingresos",
+            "max": "hasta 6 pts · principal",
+            "regras": [
+              [
+                "Menos de 1.000 €",
+                "0–1"
+              ],
+              [
+                "1.000 – 1.495 €",
+                "2"
+              ],
+              [
+                "1.500 – 1.999 €",
+                "3"
+              ],
+              [
+                "2.000 – 3.000 €",
+                "5"
+              ],
+              [
+                "Más de 3.000 €",
+                "6"
+              ]
+            ]
+          },
+          {
+            "nome": "Situación laboral",
+            "max": "hasta 2 pts",
+            "regras": [
+              [
+                "Cuenta propia / estudio propio",
+                "2"
+              ],
+              [
+                "Cuenta ajena o quiere emprender",
+                "1"
+              ],
+              [
+                "Desempleo / estudiante",
+                "0"
+              ]
+            ]
+          },
+          {
+            "nome": "Experiencia",
+            "max": "hasta 1 pt",
+            "regras": [
+              [
+                "3 años o más",
+                "1"
+              ],
+              [
+                "Menos de 3 años",
+                "0"
+              ]
+            ]
+          },
+          {
+            "nome": "Cálculo de estructuras",
+            "max": "hasta 1 pt",
+            "regras": [
+              [
+                "Calcula con dudas o no se siente capacitado",
+                "1"
+              ],
+              [
+                "Calcula con seguridad o nunca ha calculado",
+                "0"
+              ]
+            ]
+          }
+        ],
+        "niveis": [
+          [
+            "Ideal",
+            "Ideal",
+            "Ingresos de 2.000 € o más y 7+ puntos"
+          ],
+          [
+            "Bom",
+            "Bueno",
+            "Ingresos de 1.500 € o más y 4+ puntos"
+          ],
+          [
+            "Descarte",
+            "Descarte",
+            "Ingresos por debajo de 1.500 € o menos de 4 puntos"
+          ],
+          [
+            "Sem",
+            "Sin encuesta",
+            "Se registró pero aún no respondió la encuesta"
+          ]
+        ]
+      }
+    },
+    "grupos": [
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "04-HOT-ENG-180D-ARQ",
+        "criativo": "03.VD.FEED.VIVIENDA-UNIFAMILIAR-V1",
+        "canal": "fb",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 0,
+        "total": 1
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "02-HOT-ENG-90D-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "fb",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 0,
+        "total": 1
+      },
+      {
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
+        "conjunto": "00-COLD-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "ig",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 0,
+        "total": 1
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "02-HOT-ENG-90D-ARQ",
+        "criativo": "02.VD.FEED.ARQ.CALCULADORA",
+        "canal": "ig",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 0,
+        "total": 1
+      },
+      {
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
+        "conjunto": "00-COLD-ARQ",
+        "criativo": "04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.",
+        "canal": "fb",
+        "ideal": 0,
+        "bom": 1,
+        "descarte": 1,
+        "total": 2
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "01-HOT-ENG-60D-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "fb",
+        "ideal": 0,
+        "bom": 0,
+        "descarte": 1,
+        "total": 1
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "03-HOT-ENG-180D-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "fb",
+        "ideal": 0,
+        "bom": 0,
+        "descarte": 1,
+        "total": 1
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "03-HOT-ENG-180D-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "ig",
+        "ideal": 0,
+        "bom": 1,
+        "descarte": 0,
+        "total": 1
+      }
+    ]
+  },
+  "leitura": {
+    "pt": "O CPL do público quente está em <strong>€ 12,68</strong>, bem abaixo do frio, que chegou a <strong>€ 16,50</strong>, então faz sentido priorizar o HOT nos próximos dias. O CPL de ontem, € 14,70, ficou perto do acumulado de € 13,95, mostrando que o custo por lead está estável desde o início da campanha. O Instagram segue na frente como canal que mais trouxe leads, 37 no total, com o Facebook logo atrás, 34. Entre os três criativos com mais investimento, o UNIFAMILIAR-EN-UNA-MANANA tem o melhor CPL, <strong>€ 10,92</strong>, e também o maior volume de leads, 30. O connect rate está em 77,69% e a conversão da página em 9,12%, dois números saudáveis, mas a pesquisa pré-aula ainda tem só 9 respostas (4 Ideal, 2 Bom), e os números de hoje ainda são parciais porque o dia não fechou.",
+    "es": "El CPL del público caliente está en <strong>€ 12,68</strong>, bastante por debajo del frío, que llegó a <strong>€ 16,50</strong>, así que tiene sentido priorizar el HOT en los próximos días. El CPL de ayer, € 14,70, quedó cerca del acumulado de € 13,95, lo que muestra que el costo por lead está estable desde el inicio de la campaña. Instagram sigue como el canal que más leads trajo, 37 en total, con Facebook muy cerca, 34. Entre los tres creativos con más inversión, el UNIFAMILIAR-EN-UNA-MANANA tiene el mejor CPL, <strong>€ 10,92</strong>, y también el mayor volumen de leads, 30. El connect rate está en 77,69% y la conversión de la página en 9,12%, dos números buenos, pero la encuesta preclase todavía tiene solo 9 respuestas (4 Ideal, 2 Bueno), y los números de hoy todavía son parciales porque el día no cerró."
+  }
+}
