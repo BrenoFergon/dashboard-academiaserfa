@@ -44,6 +44,24 @@ body.light{--bg:#f2f3f8;--surface:#fff;--surface2:#f7f8fc;--border:#e0e2ef;--tex
 .launch-live{display:inline-block;width:6px;height:6px;border-radius:50%;background:#fc8181;margin-right:6px;vertical-align:middle}
 .launch-btn.active .launch-live{background:#0e0e12}
 .sc-note{font-size:12px;color:var(--muted);margin:-4px 0 16px}
+.sc-exp{display:none}
+.sc-exp-intro{font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:14px}
+.sc-exp-intro strong{color:var(--text)}
+.sc-exp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+.sc-exp-item{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:12px 14px}
+.sc-exp-item.primary{border-color:var(--accent2)}
+.sc-exp-name{font-size:11px;font-weight:700;color:var(--text);margin-bottom:2px}
+.sc-exp-max{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.sc-exp-item.primary .sc-exp-max{color:var(--accent2)}
+.sc-exp-rule{display:flex;justify-content:space-between;gap:8px;font-size:11px;color:var(--muted);padding:3px 0;border-bottom:1px dashed var(--border)}
+.sc-exp-rule:last-child{border-bottom:none}
+.sc-exp-rule b{color:var(--text);white-space:nowrap}
+.sc-exp-levels{display:flex;gap:8px;flex-wrap:wrap}
+.sc-lvl{font-size:12px;color:var(--muted);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:8px 12px;flex:1;min-width:200px}
+.sc-lvl b{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
+.sc-lvl.Ideal b{color:var(--ideal)}.sc-lvl.Bom b{color:var(--bom)}.sc-lvl.Descarte b{color:var(--descarte)}.sc-lvl.Sem b{color:var(--muted)}
+@media(max-width:900px){.sc-exp-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.sc-exp-grid{grid-template-columns:1fr}}
 .tab-content{display:none}
 .tab-content.active{display:block}
 .main{padding:20px 24px;max-width:1400px;margin:0 auto}
@@ -303,6 +321,12 @@ body.light .srch{background:#f0f2f7}
     <div class="kpi desc"> <div class="kpi-label">&#10005; Descarte</div><div class="kpi-value" id="sc-kd">&mdash;</div><div class="kpi-sub" id="sc-sd">Ingresos &lt; &euro;1.500<br>Estudiante/Inactivo</div></div>
   </div>
   <div class="sc-note" id="sc-note"></div>
+  <div class="card sc-exp" id="sc-exp">
+    <div class="card-title"><span class="cdot"></span><span id="sc-exp-title"></span></div>
+    <div class="sc-exp-intro" id="sc-exp-intro"></div>
+    <div class="sc-exp-grid" id="sc-exp-grid"></div>
+    <div class="sc-exp-levels" id="sc-exp-levels"></div>
+  </div>
   <div class="utm-summary">
     <div class="utm-card cold">
       <div class="utm-card-title">COLD &mdash; scoring por criativo</div>
@@ -489,6 +513,7 @@ function scRender(){
   });
   var resp=(sc.totais.Ideal||0)+(sc.totais.Bom||0)+(sc.totais.Descarte||0), sem=sc.totais['Sem dados']||0;
   set('sc-note',lang==='es'?(resp+' leads con encuesta respondida · '+sem+' sin encuesta'):(resp+' leads com pesquisa respondida · '+sem+' sem pesquisa'));
+  renderScExplain(sc);
   var q=document.getElementById('sc-srch').value.toLowerCase();
   var fl=sc.grupos.filter(function(r){
     if(scCf==='Ideal'&&r.ideal===0) return false;
@@ -537,6 +562,22 @@ function scRender(){
         '</div><div class="utm-counts"><span style="color:var(--ideal)">'+v.i+'</span><span style="color:var(--bom)">'+v.b+'</span><span style="color:var(--descarte)">'+v.d+'</span></div></div></div>';
     }).join(''):'<div style="font-size:12px;color:var(--muted);padding:8px">Sem dados</div>';
   });
+}
+
+function renderScExplain(sc){
+  var box=document.getElementById('sc-exp');
+  var ex=sc.explicacao&&(sc.explicacao[lang]||sc.explicacao.pt);
+  if(!ex){box.style.display='none';return;}
+  box.style.display='block';
+  set('sc-exp-title',ex.titulo);
+  setH('sc-exp-intro',ex.intro);
+  document.getElementById('sc-exp-grid').innerHTML=ex.criterios.map(function(c,i){
+    return '<div class="sc-exp-item'+(i===0?' primary':'')+'"><div class="sc-exp-name">'+c.nome+'</div><div class="sc-exp-max">'+c.max+'</div>'+
+      c.regras.map(function(r){return '<div class="sc-exp-rule"><span>'+r[0]+'</span><b>'+r[1]+'</b></div>';}).join('')+'</div>';
+  }).join('');
+  document.getElementById('sc-exp-levels').innerHTML=ex.niveis.map(function(n){
+    return '<div class="sc-lvl '+n[0]+'"><b>'+n[1]+'</b>'+n[2]+'</div>';
+  }).join('');
 }
 
 function scGp(p){scCp=p;scRender();}
