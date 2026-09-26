@@ -2,37 +2,37 @@
   "meta": {
     "cliente": "Academia Serfa",
     "evento": "Structural Day 03/10 · España",
-    "periodo": "22/09 – 25/09",
+    "periodo": "22/09 – 26/09",
     "datas_evento": "22/09 – 03/10",
-    "atualizado_em": "25/09/2026 15:16",
-    "dias_ativos": 4
+    "atualizado_em": "26/09/2026 08:17",
+    "dias_ativos": 5
   },
   "kpis": {
-    "investimento_total": 1046.6,
-    "cpl_total": 13.95,
-    "leads_total": 75
+    "investimento_total": 2883.59,
+    "cpl_total": 20.02,
+    "leads_total": 144
   },
   "audiencias": {
     "hot": {
-      "leads": 50,
-      "spend": 634.15,
-      "cpl": 12.68
+      "leads": 107,
+      "spend": 2274.29,
+      "cpl": 21.26
     },
     "cold": {
-      "leads": 25,
-      "spend": 412.45,
-      "cpl": 16.5
+      "leads": 35,
+      "spend": 609.3,
+      "cpl": 17.41
     }
   },
   "funil": {
-    "impressoes": 104797,
-    "alcance": 50386,
-    "cliques": 1058,
-    "page_views": 822,
-    "leads": 75,
-    "ctr": 1.01,
-    "connect_rate": 77.69,
-    "taxa_conversao": 9.12
+    "impressoes": 231677,
+    "alcance": 149227,
+    "cliques": 2626,
+    "page_views": 2114,
+    "leads": 144,
+    "ctr": 1.13,
+    "connect_rate": 80.5,
+    "taxa_conversao": 6.81
   },
   "leads_por_dia": [
     {
@@ -49,7 +49,11 @@
     },
     {
       "data": "25/09",
-      "leads": 20
+      "leads": 31
+    },
+    {
+      "data": "26/09",
+      "leads": 58
     }
   ],
   "cpl_por_dia": [
@@ -70,181 +74,191 @@
     },
     {
       "data": "25/09",
-      "leads": 20,
-      "cpl": 16.96
+      "leads": 31,
+      "cpl": 19.2
+    },
+    {
+      "data": "26/09",
+      "leads": 58,
+      "cpl": 27.25
     }
   ],
   "canais": [
     {
       "canal": "IG",
-      "leads": 37,
-      "pct": 49.3
+      "leads": 79,
+      "pct": 54.9
     },
     {
       "canal": "FB",
-      "leads": 34,
-      "pct": 45.3
+      "leads": 58,
+      "pct": 40.3
     },
     {
       "canal": "AN",
-      "leads": 4,
-      "pct": 5.3
+      "leads": 5,
+      "pct": 3.5
+    },
+    {
+      "canal": "Sem Rastreio",
+      "leads": 2,
+      "pct": 1.4
     }
   ],
   "criativos": [
     {
-      "nome": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
-      "spend": 327.62,
-      "impressoes": 36221,
-      "cliques": 312,
-      "leads": 30,
-      "cpl": 10.92
+      "nome": "04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.",
+      "spend": 486.67,
+      "impressoes": 47238,
+      "cliques": 495,
+      "leads": 25,
+      "cpl": 19.47
     },
     {
-      "nome": "04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.",
-      "spend": 316.54,
-      "impressoes": 32118,
-      "cliques": 320,
-      "leads": 19,
-      "cpl": 16.66
+      "nome": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+      "spend": 395.04,
+      "impressoes": 42265,
+      "cliques": 361,
+      "leads": 31,
+      "cpl": 12.74
     },
     {
       "nome": "03.VD.FEED.VIVIENDA-UNIFAMILIAR-V1",
-      "spend": 240.27,
-      "impressoes": 23063,
-      "cliques": 263,
-      "leads": 16,
-      "cpl": 15.02
+      "spend": 298.29,
+      "impressoes": 27400,
+      "cliques": 353,
+      "leads": 20,
+      "cpl": 14.91
     },
     {
-      "nome": "02.VD.FEED.ARQ.CALCULADORA",
-      "spend": 60.52,
-      "impressoes": 4085,
-      "cliques": 59,
+      "nome": "A2-FACILIDAD-Lp2",
+      "spend": 135.8,
+      "impressoes": 7667,
+      "cliques": 87,
       "leads": 6,
-      "cpl": 10.09
+      "cpl": 22.63
     },
     {
-      "nome": "03.VD.FEED.ARQ.EINSTEIN",
-      "spend": 35.27,
-      "impressoes": 3074,
-      "cliques": 48,
+      "nome": "A7-DINERO-QUE-SE-VA-Lp7",
+      "spend": 133.5,
+      "impressoes": 6498,
+      "cliques": 107,
+      "leads": 4,
+      "cpl": 33.38
+    },
+    {
+      "nome": "A3-SERVILLETA-Lp3",
+      "spend": 131.18,
+      "impressoes": 6712,
+      "cliques": 96,
       "leads": 3,
-      "cpl": 11.76
+      "cpl": 43.73
     },
     {
-      "nome": "ARQUITECTO-DINERO",
-      "spend": 18.96,
-      "impressoes": 1554,
-      "cliques": 19,
-      "leads": 0,
-      "cpl": null
+      "nome": "A8-FIRMA-Y-RESPONSABILIDAD-Lp8",
+      "spend": 129.26,
+      "impressoes": 7329,
+      "cliques": 97,
+      "leads": 3,
+      "cpl": 43.09
     },
     {
-      "nome": "09.VD.FEED.ARQ.NO-SUBCONTRATES",
-      "spend": 15.4,
-      "impressoes": 1295,
-      "cliques": 16,
-      "leads": 0,
-      "cpl": null
+      "nome": "A13-SIN-MIEDO-Lp13",
+      "spend": 126.98,
+      "impressoes": 7137,
+      "cliques": 73,
+      "leads": 6,
+      "cpl": 21.16
     },
     {
-      "nome": "A1-CRITERIO-ARQ-Lp1",
-      "spend": 15.11,
-      "impressoes": 1460,
-      "cliques": 13,
-      "leads": 1,
-      "cpl": 15.11
+      "nome": "A5-METER-DATOS-Y-REZAR-Lp5",
+      "spend": 122.19,
+      "impressoes": 9271,
+      "cliques": 102,
+      "leads": 5,
+      "cpl": 24.44
     },
     {
-      "nome": "01.VD.FEED.ARQ.PROYECTOS-RENTABLES",
-      "spend": 9.93,
-      "impressoes": 985,
-      "cliques": 6,
-      "leads": 0,
-      "cpl": null
-    },
-    {
-      "nome": "14.IMG.ARQ.FIRMAR",
-      "spend": 7.08,
-      "impressoes": 944,
-      "cliques": 2,
-      "leads": 0,
-      "cpl": null
+      "nome": "A10-TECNICO-OXIDADO-Lp10",
+      "spend": 122.02,
+      "impressoes": 8729,
+      "cliques": 91,
+      "leads": 5,
+      "cpl": 24.4
     }
   ],
   "segmentacao": {
     "genero": [
       {
         "grupo": "male",
-        "spend": 672.05,
-        "ctr": 0.92,
-        "cpm": 8.96,
-        "cpc": 0.97,
-        "leads": 48,
-        "cpl": 14.0
+        "spend": 1875.03,
+        "ctr": 1.09,
+        "cpm": 11.15,
+        "cpc": 1.02,
+        "leads": 94,
+        "cpl": 19.95
       },
       {
         "grupo": "female",
-        "spend": 350.42,
-        "ctr": 1.22,
-        "cpm": 12.79,
-        "cpc": 1.05,
-        "leads": 25,
-        "cpl": 14.02
+        "spend": 961.78,
+        "ctr": 1.24,
+        "cpm": 16.14,
+        "cpc": 1.3,
+        "leads": 48,
+        "cpl": 20.04
       },
       {
         "grupo": "unknown",
-        "spend": 24.77,
-        "ctr": 1.29,
-        "cpm": 10.02,
-        "cpc": 0.77,
+        "spend": 46.78,
+        "ctr": 1.35,
+        "cpm": 12.13,
+        "cpc": 0.9,
         "leads": 2,
-        "cpl": 12.39
+        "cpl": 23.39
       }
     ],
     "faixa_etaria": [
       {
         "grupo": "45-54",
-        "spend": 420.43,
-        "ctr": 1.29,
-        "cpm": 12.18,
-        "cpc": 0.95,
-        "leads": 30,
-        "cpl": 14.01
+        "spend": 1170.22,
+        "ctr": 1.37,
+        "cpm": 15.75,
+        "cpc": 1.15,
+        "leads": 58,
+        "cpl": 20.18
       },
       {
         "grupo": "35-44",
-        "spend": 349.18,
-        "ctr": 0.8,
-        "cpm": 8.04,
-        "cpc": 1.0,
-        "leads": 25,
-        "cpl": 13.97
+        "spend": 1012.09,
+        "ctr": 0.96,
+        "cpm": 10.21,
+        "cpc": 1.07,
+        "leads": 51,
+        "cpl": 19.84
       },
       {
         "grupo": "55-64",
-        "spend": 176.29,
-        "ctr": 1.61,
-        "cpm": 16.42,
-        "cpc": 1.02,
-        "leads": 13,
-        "cpl": 13.56
+        "spend": 419.06,
+        "ctr": 1.78,
+        "cpm": 19.87,
+        "cpc": 1.11,
+        "leads": 21,
+        "cpl": 19.96
       },
       {
         "grupo": "25-34",
-        "spend": 101.29,
-        "ctr": 0.58,
-        "cpm": 6.26,
-        "cpc": 1.09,
-        "leads": 7,
-        "cpl": 14.47
+        "spend": 282.1,
+        "ctr": 0.76,
+        "cpm": 7.6,
+        "cpc": 1.0,
+        "leads": 14,
+        "cpl": 20.15
       },
       {
         "grupo": "Unknown",
-        "spend": 0.05,
+        "spend": 0.12,
         "ctr": 0.0,
-        "cpm": 16.67,
+        "cpm": 24.0,
         "cpc": 0.0,
         "leads": 0,
         "cpl": 0.0
@@ -254,9 +268,9 @@
   "lead_scoring": {
     "totais": {
       "Ideal": 4,
-      "Bom": 2,
-      "Descarte": 3,
-      "Sem dados": 60
+      "Bom": 4,
+      "Descarte": 5,
+      "Sem dados": 124
     },
     "criterios": {
       "Ideal": {
@@ -520,6 +534,17 @@
         "total": 1
       },
       {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "03-HOT-ENG-180D-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "ig",
+        "ideal": 0,
+        "bom": 2,
+        "descarte": 0,
+        "total": 2
+      },
+      {
         "tipo": "COLD",
         "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
         "conjunto": "00-COLD-ARQ",
@@ -553,11 +578,33 @@
         "total": 1
       },
       {
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
+        "conjunto": "00-COLD-ARQ",
+        "criativo": "01.VD.FEED.ARQ.PROYECTOS-RENTABLES",
+        "canal": "fb",
+        "ideal": 0,
+        "bom": 0,
+        "descarte": 1,
+        "total": 1
+      },
+      {
         "tipo": "HOT",
-        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
-        "conjunto": "03-HOT-ENG-180D-ARQ",
-        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-IMPOSTOR-Lp6-ARQ-2026-09-25",
+        "conjunto": "00-HOT-ENG-30D-ARQ-Lp6",
+        "criativo": "A6-IMPOSTOR-Lp6",
         "canal": "ig",
+        "ideal": 0,
+        "bom": 0,
+        "descarte": 1,
+        "total": 1
+      },
+      {
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
+        "conjunto": "00-COLD-ARQ",
+        "criativo": "03.VD.FEED.VIVIENDA-UNIFAMILIAR-V1",
+        "canal": "fb",
         "ideal": 0,
         "bom": 1,
         "descarte": 0,
@@ -566,7 +613,7 @@
     ]
   },
   "leitura": {
-    "pt": "O CPL do público quente está em <strong>€ 12,68</strong>, bem abaixo do frio, que chegou a <strong>€ 16,50</strong>, então faz sentido priorizar o HOT nos próximos dias. O CPL de ontem, € 14,70, ficou perto do acumulado de € 13,95, mostrando que o custo por lead está estável desde o início da campanha. O Instagram segue na frente como canal que mais trouxe leads, 37 no total, com o Facebook logo atrás, 34. Entre os três criativos com mais investimento, o UNIFAMILIAR-EN-UNA-MANANA tem o melhor CPL, <strong>€ 10,92</strong>, e também o maior volume de leads, 30. O connect rate está em 77,69% e a conversão da página em 9,12%, dois números saudáveis, mas a pesquisa pré-aula ainda tem só 9 respostas (4 Ideal, 2 Bom), e os números de hoje ainda são parciais porque o dia não fechou.",
-    "es": "El CPL del público caliente está en <strong>€ 12,68</strong>, bastante por debajo del frío, que llegó a <strong>€ 16,50</strong>, así que tiene sentido priorizar el HOT en los próximos días. El CPL de ayer, € 14,70, quedó cerca del acumulado de € 13,95, lo que muestra que el costo por lead está estable desde el inicio de la campaña. Instagram sigue como el canal que más leads trajo, 37 en total, con Facebook muy cerca, 34. Entre los tres creativos con más inversión, el UNIFAMILIAR-EN-UNA-MANANA tiene el mejor CPL, <strong>€ 10,92</strong>, y también el mayor volumen de leads, 30. El connect rate está en 77,69% y la conversión de la página en 9,12%, dos números buenos, pero la encuesta preclase todavía tiene solo 9 respuestas (4 Ideal, 2 Bueno), y los números de hoy todavía son parciales porque el día no cerró."
+    "pt": "O CPL do público frio ficou mais barato que o do quente hoje: <strong>€ 17,41</strong> contra € 21,26. O CPL de ontem, € 19,20, ficou abaixo da média acumulada de <strong>€ 20,02</strong>. Instagram lidera a captação de leads com 79 leads (54,9% do total), à frente do Facebook. Entre os três criativos que mais gastaram, o anúncio 13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA teve o melhor CPL, <strong>€ 12,74</strong>. O connect rate está em 80,50%, a conversão de página em 6,81%, e até agora só 13 pessoas responderam a pesquisa, com 4 leads Ideal e 4 Bom; os números de hoje ainda são parciais.",
+    "es": "El CPL del público frío fue más barato que el del caliente hoy: <strong>€ 17,41</strong> frente a € 21,26. El CPL de ayer, € 19,20, quedó por debajo del promedio acumulado de <strong>€ 20,02</strong>. Instagram lidera la captación de leads con 79 leads (54,9% del total), por delante de Facebook. Entre los tres creativos que más gastaron, el anuncio 13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA tuvo el mejor CPL, <strong>€ 12,74</strong>. El connect rate está en 80,50%, la conversión de página en 6,81%, y hasta ahora solo 13 personas respondieron la encuesta, con 4 leads Ideal y 4 Bueno; los números de hoy todavía son parciales."
   }
 }
