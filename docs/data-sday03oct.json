@@ -2,37 +2,37 @@
   "meta": {
     "cliente": "Academia Serfa",
     "evento": "Structural Day 03/10 · España",
-    "periodo": "22/09 – 27/09",
+    "periodo": "22/09 – 28/09",
     "datas_evento": "22/09 – 03/10",
-    "atualizado_em": "27/09/2026 08:17",
-    "dias_ativos": 6
+    "atualizado_em": "28/09/2026 08:21",
+    "dias_ativos": 7
   },
   "kpis": {
-    "investimento_total": 5448.47,
-    "cpl_total": 21.88,
-    "leads_total": 249
+    "investimento_total": 7188.14,
+    "cpl_total": 22.25,
+    "leads_total": 323
   },
   "audiencias": {
     "hot": {
-      "leads": 166,
-      "spend": 3818.8,
-      "cpl": 23.0
+      "leads": 200,
+      "spend": 4570.58,
+      "cpl": 22.85
     },
     "cold": {
-      "leads": 79,
-      "spend": 1629.67,
-      "cpl": 20.63
+      "leads": 116,
+      "spend": 2617.56,
+      "cpl": 22.57
     }
   },
   "funil": {
-    "impressoes": 427078,
-    "alcance": 289439,
-    "cliques": 4985,
-    "page_views": 4171,
-    "leads": 249,
+    "impressoes": 564830,
+    "alcance": 372614,
+    "cliques": 6632,
+    "page_views": 5592,
+    "leads": 323,
     "ctr": 1.17,
-    "connect_rate": 83.67,
-    "taxa_conversao": 5.97
+    "connect_rate": 84.32,
+    "taxa_conversao": 5.78
   },
   "leads_por_dia": [
     {
@@ -57,7 +57,11 @@
     },
     {
       "data": "27/09",
-      "leads": 65
+      "leads": 103
+    },
+    {
+      "data": "28/09",
+      "leads": 36
     }
   ],
   "cpl_por_dia": [
@@ -84,190 +88,195 @@
     {
       "data": "26/09",
       "leads": 98,
-      "cpl": 26.1
+      "cpl": 26.11
     },
     {
       "data": "27/09",
-      "leads": 65,
-      "cpl": 24.43
+      "leads": 103,
+      "cpl": 24.74
+    },
+    {
+      "data": "28/09",
+      "leads": 36,
+      "cpl": 21.61
     }
   ],
   "canais": [
     {
       "canal": "IG",
-      "leads": 137,
-      "pct": 55.0
+      "leads": 175,
+      "pct": 54.2
     },
     {
       "canal": "FB",
-      "leads": 100,
-      "pct": 40.2
+      "leads": 131,
+      "pct": 40.6
     },
     {
       "canal": "AN",
-      "leads": 8,
-      "pct": 3.2
+      "leads": 10,
+      "pct": 3.1
     },
     {
       "canal": "Sem Rastreio",
-      "leads": 4,
-      "pct": 1.6
+      "leads": 7,
+      "pct": 2.2
     }
   ],
   "criativos": [
     {
-      "nome": "04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.",
-      "spend": 780.41,
-      "impressoes": 70606,
-      "cliques": 852,
-      "leads": 37,
-      "cpl": 21.09
-    },
-    {
       "nome": "A6-IMPOSTOR-Lp6",
-      "spend": 581.8,
-      "impressoes": 40930,
-      "cliques": 616,
-      "leads": 36,
-      "cpl": 16.16
+      "spend": 1184.26,
+      "impressoes": 90666,
+      "cliques": 1214,
+      "leads": 66,
+      "cpl": 17.94
     },
     {
-      "nome": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
-      "spend": 508.64,
-      "impressoes": 51269,
-      "cliques": 438,
-      "leads": 35,
-      "cpl": 14.53
+      "nome": "04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.",
+      "spend": 1072.89,
+      "impressoes": 94088,
+      "cliques": 1200,
+      "leads": 48,
+      "cpl": 22.35
     },
     {
       "nome": "A13-SIN-MIEDO-Lp13",
-      "spend": 476.15,
-      "impressoes": 43650,
-      "cliques": 423,
-      "leads": 15,
-      "cpl": 31.74
+      "spend": 646.55,
+      "impressoes": 61132,
+      "cliques": 630,
+      "leads": 19,
+      "cpl": 34.03
     },
     {
       "nome": "A5-METER-DATOS-Y-REZAR-Lp5",
-      "spend": 449.86,
-      "impressoes": 33916,
-      "cliques": 319,
-      "leads": 22,
-      "cpl": 20.45
+      "spend": 622.46,
+      "impressoes": 46295,
+      "cliques": 436,
+      "leads": 26,
+      "cpl": 23.94
+    },
+    {
+      "nome": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+      "spend": 579.3,
+      "impressoes": 56715,
+      "cliques": 470,
+      "leads": 37,
+      "cpl": 15.66
     },
     {
       "nome": "A7-DINERO-QUE-SE-VA-Lp7",
-      "spend": 449.69,
-      "impressoes": 26767,
-      "cliques": 399,
-      "leads": 12,
-      "cpl": 37.47
+      "spend": 506.04,
+      "impressoes": 30635,
+      "cliques": 453,
+      "leads": 14,
+      "cpl": 36.15
     },
     {
       "nome": "03.VD.FEED.VIVIENDA-UNIFAMILIAR-V1",
-      "spend": 380.25,
-      "impressoes": 31781,
-      "cliques": 424,
-      "leads": 22,
-      "cpl": 17.28
+      "spend": 497.49,
+      "impressoes": 39315,
+      "cliques": 529,
+      "leads": 25,
+      "cpl": 19.9
     },
     {
       "nome": "A11-TEORIA-A-OBRA-Lp11",
-      "spend": 340.86,
-      "impressoes": 29610,
-      "cliques": 271,
-      "leads": 17,
-      "cpl": 20.05
+      "spend": 460.06,
+      "impressoes": 38950,
+      "cliques": 345,
+      "leads": 21,
+      "cpl": 21.91
+    },
+    {
+      "nome": "02.VD.FEED.ARQ.CALCULADORA",
+      "spend": 205.82,
+      "impressoes": 12459,
+      "cliques": 192,
+      "leads": 18,
+      "cpl": 11.43
     },
     {
       "nome": "A1-CRITERIO-ARQ-Lp1",
-      "spend": 184.62,
-      "impressoes": 12985,
+      "spend": 184.65,
+      "impressoes": 12992,
       "cliques": 153,
       "leads": 6,
-      "cpl": 30.77
-    },
-    {
-      "nome": "A2-FACILIDAD-Lp2",
-      "spend": 166.03,
-      "impressoes": 9565,
-      "cliques": 108,
-      "leads": 7,
-      "cpl": 23.72
+      "cpl": 30.78
     }
   ],
   "segmentacao": {
     "genero": [
       {
         "grupo": "male",
-        "spend": 3621.47,
+        "spend": 4854.11,
         "ctr": 1.15,
-        "cpm": 11.65,
-        "cpc": 1.02,
-        "leads": 166,
-        "cpl": 21.82
+        "cpm": 11.62,
+        "cpc": 1.01,
+        "leads": 218,
+        "cpl": 22.27
       },
       {
         "grupo": "female",
-        "spend": 1739.79,
-        "ctr": 1.23,
-        "cpm": 16.33,
-        "cpc": 1.32,
-        "leads": 80,
-        "cpl": 21.75
+        "spend": 2219.65,
+        "ctr": 1.27,
+        "cpm": 16.48,
+        "cpc": 1.3,
+        "leads": 100,
+        "cpl": 22.2
       },
       {
         "grupo": "unknown",
-        "spend": 87.21,
-        "ctr": 0.99,
-        "cpm": 9.1,
-        "cpc": 0.92,
-        "leads": 4,
-        "cpl": 21.8
+        "spend": 114.38,
+        "ctr": 0.97,
+        "cpm": 9.19,
+        "cpc": 0.95,
+        "leads": 5,
+        "cpl": 22.88
       }
     ],
     "faixa_etaria": [
       {
         "grupo": "45-54",
-        "spend": 2234.4,
+        "spend": 2958.39,
         "ctr": 1.37,
-        "cpm": 15.68,
-        "cpc": 1.14,
-        "leads": 102,
-        "cpl": 21.91
+        "cpm": 15.5,
+        "cpc": 1.13,
+        "leads": 133,
+        "cpl": 22.24
       },
       {
         "grupo": "35-44",
-        "spend": 1901.49,
-        "ctr": 0.99,
-        "cpm": 10.59,
-        "cpc": 1.07,
-        "leads": 87,
-        "cpl": 21.86
+        "spend": 2489.01,
+        "ctr": 0.98,
+        "cpm": 10.54,
+        "cpc": 1.08,
+        "leads": 112,
+        "cpl": 22.22
       },
       {
         "grupo": "55-64",
-        "spend": 798.78,
-        "ctr": 1.75,
-        "cpm": 19.65,
-        "cpc": 1.12,
-        "leads": 37,
-        "cpl": 21.59
+        "spend": 1074.7,
+        "ctr": 1.78,
+        "cpm": 19.66,
+        "cpc": 1.1,
+        "leads": 48,
+        "cpl": 22.39
       },
       {
         "grupo": "25-34",
-        "spend": 520.12,
-        "ctr": 0.84,
-        "cpm": 8.06,
-        "cpc": 0.96,
-        "leads": 24,
-        "cpl": 21.67
+        "spend": 665.87,
+        "ctr": 0.88,
+        "cpm": 8.0,
+        "cpc": 0.91,
+        "leads": 30,
+        "cpl": 22.2
       },
       {
         "grupo": "Unknown",
-        "spend": 0.14,
+        "spend": 0.17,
         "ctr": 0.0,
-        "cpm": 14.0,
+        "cpm": 13.08,
         "cpc": 0.0,
         "leads": 0,
         "cpl": 0.0
@@ -276,10 +285,10 @@
   },
   "lead_scoring": {
     "totais": {
-      "Ideal": 14,
-      "Bom": 6,
-      "Descarte": 10,
-      "Sem dados": 209
+      "Ideal": 21,
+      "Bom": 12,
+      "Descarte": 17,
+      "Sem dados": 255
     },
     "criterios": {
       "Ideal": {
@@ -522,6 +531,50 @@
       },
       {
         "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "03-HOT-ENG-180D-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "fb",
+        "ideal": 1,
+        "bom": 1,
+        "descarte": 2,
+        "total": 4
+      },
+      {
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-ARQ-VD-FEED-STORIES-METER-DATOS-Y-REZAR-Lp5-ARQ-2026-09-26",
+        "conjunto": "00-COLD-ARQ-Lp5",
+        "criativo": "A5-METER-DATOS-Y-REZAR-Lp5",
+        "canal": "ig",
+        "ideal": 1,
+        "bom": 2,
+        "descarte": 0,
+        "total": 3
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "02-HOT-ENG-90D-ARQ",
+        "criativo": "02.VD.FEED.ARQ.CALCULADORA",
+        "canal": "ig",
+        "ideal": 1,
+        "bom": 1,
+        "descarte": 0,
+        "total": 2
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-IMPOSTOR-Lp6-ARQ-2026-09-25",
+        "conjunto": "00-HOT-ENG-30D-ARQ-Lp6",
+        "criativo": "A6-IMPOSTOR-Lp6",
+        "canal": "ig",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 1,
+        "total": 2
+      },
+      {
+        "tipo": "HOT",
         "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-TEORIA-A-OBRA-Lp11-ARQ-2026-09-25",
         "conjunto": "01-HOT-ENG-60D-ARQ-Lp11",
         "criativo": "A11-TEORIA-A-OBRA-Lp11",
@@ -530,6 +583,39 @@
         "bom": 0,
         "descarte": 1,
         "total": 2
+      },
+      {
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
+        "conjunto": "00-COLD-ARQ",
+        "criativo": "04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.",
+        "canal": "ig",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 1,
+        "total": 2
+      },
+      {
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
+        "conjunto": "00-COLD-ARQ",
+        "criativo": "02.VD.FEED.ARQ.CALCULADORA",
+        "canal": "fb",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 1,
+        "total": 2
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
+        "conjunto": "04-HOT-ENG-180D-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "ig",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 0,
+        "total": 1
       },
       {
         "tipo": "HOT",
@@ -554,6 +640,17 @@
         "total": 1
       },
       {
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
+        "conjunto": "00-COLD-ARQ",
+        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
+        "canal": "an",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 0,
+        "total": 1
+      },
+      {
         "tipo": "HOT",
         "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
         "conjunto": "02-HOT-ENG-90D-ARQ",
@@ -569,17 +666,6 @@
         "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
         "conjunto": "00-COLD-ARQ",
         "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
-        "canal": "ig",
-        "ideal": 1,
-        "bom": 0,
-        "descarte": 0,
-        "total": 1
-      },
-      {
-        "tipo": "HOT",
-        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
-        "conjunto": "02-HOT-ENG-90D-ARQ",
-        "criativo": "02.VD.FEED.ARQ.CALCULADORA",
         "canal": "ig",
         "ideal": 1,
         "bom": 0,
@@ -591,17 +677,6 @@
         "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-DINERO-QUE-SE-VA-Lp7-ARQ-2026-09-25",
         "conjunto": "03-HOT-ENG-180D-ARQ-Lp7",
         "criativo": "A7-DINERO-QUE-SE-VA-Lp7",
-        "canal": "ig",
-        "ideal": 1,
-        "bom": 0,
-        "descarte": 0,
-        "total": 1
-      },
-      {
-        "tipo": "COLD",
-        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
-        "conjunto": "00-COLD-ARQ",
-        "criativo": "04.VD.STORI.VIVIENDA UNIFAMILIAR.V2.",
         "canal": "ig",
         "ideal": 1,
         "bom": 0,
@@ -631,6 +706,17 @@
         "total": 1
       },
       {
+        "tipo": "OUTRO",
+        "campanha": "",
+        "conjunto": "",
+        "criativo": "",
+        "canal": "Sem Rastreio",
+        "ideal": 1,
+        "bom": 0,
+        "descarte": 0,
+        "total": 1
+      },
+      {
         "tipo": "COLD",
         "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
         "conjunto": "00-COLD-ARQ",
@@ -638,8 +724,8 @@
         "canal": "fb",
         "ideal": 0,
         "bom": 2,
-        "descarte": 1,
-        "total": 3
+        "descarte": 2,
+        "total": 4
       },
       {
         "tipo": "HOT",
@@ -653,11 +739,11 @@
         "total": 1
       },
       {
-        "tipo": "HOT",
-        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-09-22",
-        "conjunto": "03-HOT-ENG-180D-ARQ",
-        "criativo": "13.IMG.ARQ.UNIFAMILIAR-EN-UNA-MANANA",
-        "canal": "fb",
+        "tipo": "COLD",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-int-ARQ-ING-IMG-FEED-STORIES-P1-2026-09-22",
+        "conjunto": "00-COLD-ARQ",
+        "criativo": "03.VD.FEED.VIVIENDA-UNIFAMILIAR-V1",
+        "canal": "ig",
         "ideal": 0,
         "bom": 0,
         "descarte": 1,
@@ -687,13 +773,24 @@
       },
       {
         "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-NUMEROS-GORDOS-Lp12-ARQ-2026-09-25",
+        "conjunto": "04-HOT-ENG-365D-ARQ-Lp12",
+        "criativo": "A12-NUMEROS-GORDOS-Lp12",
+        "canal": "fb",
+        "ideal": 0,
+        "bom": 1,
+        "descarte": 0,
+        "total": 1
+      },
+      {
+        "tipo": "HOT",
         "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-IMPOSTOR-Lp6-ARQ-2026-09-25",
-        "conjunto": "00-HOT-ENG-30D-ARQ-Lp6",
+        "conjunto": "04-HOT-ENG-365D-ARQ-Lp6",
         "criativo": "A6-IMPOSTOR-Lp6",
         "canal": "ig",
         "ideal": 0,
-        "bom": 0,
-        "descarte": 1,
+        "bom": 1,
+        "descarte": 0,
         "total": 1
       },
       {
@@ -731,13 +828,24 @@
       },
       {
         "tipo": "COLD",
-        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-ARQ-VD-FEED-STORIES-METER-DATOS-Y-REZAR-Lp5-ARQ-2026-09-26",
-        "conjunto": "00-COLD-ARQ-Lp5",
-        "criativo": "A5-METER-DATOS-Y-REZAR-Lp5",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-COLD-ARQ-HIERARQUIA-VD-FEED-STORIES-SIN-MIEDO-Lp13 -ARQ-2026-09-26",
+        "conjunto": "00-COLD-ARQ-Lp13",
+        "criativo": "A13-SIN-MIEDO-Lp13",
         "canal": "ig",
         "ideal": 0,
         "bom": 1,
         "descarte": 0,
+        "total": 1
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-SIN-MIEDO-Lp13 -ARQ-2026-09-25",
+        "conjunto": "01-HOT-ENG-60D-ARQ-Lp13",
+        "criativo": "A13-SIN-MIEDO-Lp13",
+        "canal": "ig",
+        "ideal": 0,
+        "bom": 0,
+        "descarte": 1,
         "total": 1
       },
       {
@@ -750,11 +858,22 @@
         "bom": 0,
         "descarte": 1,
         "total": 1
+      },
+      {
+        "tipo": "HOT",
+        "campanha": "FT-SDAYoct2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-IMPOSTOR-Lp6-ARQ-2026-09-25",
+        "conjunto": "04-HOT-ENG-365D-ARQ-Lp6",
+        "criativo": "A6-IMPOSTOR-Lp6",
+        "canal": "fb",
+        "ideal": 0,
+        "bom": 0,
+        "descarte": 1,
+        "total": 1
       }
     ]
   },
   "leitura": {
-    "pt": "O CPL geral fechou em <strong>€ 21,88</strong>, com o público frio mais barato que o quente: € 20,63 contra € 23,00. Ontem o CPL subiu para € 26,10, acima da média acumulada, mas hoje os dados ainda são parciais, com 65 leads registrados até agora. O Instagram segue como o canal que mais traz leads, com <strong>137 do total (55%)</strong>, e entre os três criativos que mais gastaram o Impostor-Lp6 tem o melhor CPL, € 16,16. O funil está saudável: connect rate de 83,67% e conversão de página para lead de 5,97%. Na pesquisa pré-aula, só 30 dos 249 leads responderam até agora, mas desses <strong>20 caíram em Ideal ou Bom</strong>, uma proporção boa para o volume ainda pequeno de respostas.",
-    "es": "El CPL general cerró en <strong>€ 21,88</strong>, con el público frío más barato que el caliente: € 20,63 frente a € 23,00. Ayer el CPL subió a € 26,10, por encima del promedio acumulado, pero hoy los datos todavía son parciales, con 65 leads registrados hasta ahora. Instagram sigue siendo el canal que más leads trae, con <strong>137 del total (55%)</strong>, y entre los tres creativos con más gasto el Impostor-Lp6 tiene el mejor CPL, € 16,16. El embudo está sano: connect rate de 83,67% y conversión de página a lead de 5,97%. En la encuesta preclase, solo 30 de los 249 leads respondieron hasta ahora, pero de esos <strong>20 cayeron en Ideal o Bueno</strong>, una proporción buena para el volumen todavía pequeño de respuestas."
+    "pt": "O CPL do público frio ficou levemente menor que o do quente, <strong>€ 22,57</strong> contra € 22,85, então os dois estão bem próximos. Ontem o CPL fechou em € 24,74, acima da média acumulada de € 22,25, um custo mais alto no dia. Instagram lidera como canal com mais leads, <strong>54,2%</strong> do total, e entre os três criativos que mais gastaram o A6-IMPOSTOR-Lp6 tem o melhor CPL, € 17,94. A pesquisa já tem 50 respostas, com <strong>33 leads em Ideal ou Bom</strong> contra 17 em Descarte, e o connect rate de 84,32% mostra que quem clica está chegando bem na página. Os números de hoje ainda são parciais, com 36 leads registrados até agora.",
+    "es": "El CPL del público frío quedó un poco más bajo que el del caliente, <strong>€ 22,57</strong> contra € 22,85, así que los dos están muy parejos. Ayer el CPL cerró en € 24,74, por encima del acumulado de € 22,25, un costo más alto en el día. Instagram sigue como el canal que más leads trae, <strong>54,2%</strong> del total, y entre los tres creativos que más gastaron el A6-IMPOSTOR-Lp6 tiene el mejor CPL, € 17,94. La encuesta ya tiene 50 respuestas, con <strong>33 leads en Ideal o Bueno</strong> contra 17 en Descarte, y el connect rate de 84,32% muestra que quien hace clic está llegando bien a la página. Los números de hoy todavía son parciales, con 36 leads registrados hasta ahora."
   }
 }
